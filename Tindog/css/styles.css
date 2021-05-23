@@ -35,6 +35,10 @@ p{
   color: #8f8f8f;
 }
 
+i{
+  margin: 0 1% 1% 1%;
+}
+
 /* Navigation Bar Section */
 
 .navbar{
@@ -103,6 +107,7 @@ p{
 }
 
 /* Testimonials Section */
+
 #testimonials{
   text-align: center;
   color: #fff;
@@ -128,9 +133,22 @@ p{
 
 .carousel-item{
   padding: 7% 15%;
+  transform;rotate(0);
 }
 
 /* Pricing Section */
+
+@media (max-width: 1028px){  /*anthing under 1028px screen size will have the attributes below */
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position:static;
+    transform: rotate(0);
+  }
+}
+
 #pricing{
   padding: 100px;
   text-align: center;
@@ -139,3 +157,36 @@ p{
 .pricing-column{
   padding: 3% 2%;
 }
+
+/* CTA Section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cta-span{
+  display: block;
+}
+
+/* Footer Section */
+
+#footer{
+  padding: 2% 0;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
